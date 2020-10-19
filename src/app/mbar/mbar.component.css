@@ -1,0 +1,87 @@
+html, body {
+	background-color: pink;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+nav {
+	height: 10%;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 80%;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 7px 8px;
+	text-decoration: none;
+
+	background-image: url('/assets/web_images/SICNETLoGo.png');
+}
+
+ul a img:hover {
+	-webkit-backdrop-filter:blur(150px);
+	backdrop-filter:blur(150px);
+}
+
+li a:hover:not(.active){
+	-webkit-backdrop-filter:blur(150px);
+	backdrop-filter:blur(150px);
+	background-color: rgba(51,51,51,0.2);
+}
+
+p {
+	padding: 50px 50px;
+}
+
+
+/* classes */  
+
+.active{
+	display: left;
+}
+
+.logosicnet {
+	float: left;
+}
+
+.logonavbar {
+	display: block;
+	float: left;
+	padding:  7px 0px 7px 20px;
+	height: 8%;
+	width: 8%;
+}
+
+.logodotsnavbar {
+/*  padding: top right botton left*/
+	padding: 8px 0px 7px 0px;
+	height: 1.1%;
+	width: 1.1%;
+}
+
+img {
+}
+
+.filter{
+	background: filter(15px);
+	background-color: rgba(51,51,51,0.8);
+}
+
+
