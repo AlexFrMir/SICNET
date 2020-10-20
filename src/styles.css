@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html, body {
-	background-image: url(app/wall.jpg);
-	/*background-color: black;*/
+	/*background-image: url(/assets/web_images/nasa-unsplash.jpg);
+	background-size: 100%*/
+	background-color: black;
 }
