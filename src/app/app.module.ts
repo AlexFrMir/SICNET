@@ -8,7 +8,6 @@ import { NavbarModule, WavesModule, ButtonsModule, MDBBootstrapModule} from 'ang
 
 @NgModule({
   declarations: [
-    MbarComponent,
     AppComponent
   ],
   imports: [
